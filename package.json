@@ -1,0 +1,24 @@
+{
+  "name": "@dada78641/bwmapgfx",
+  "description": "Collection of map graphics from StarCraft: Brood War for programming use",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "https://github.com/msikma/bwmapgfx",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "SEE LICENSE IN copyright.md",
+  "devDependencies": {
+    "@types/node": "^22.8.1",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  }
+}
