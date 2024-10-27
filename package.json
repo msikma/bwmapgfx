@@ -13,6 +13,11 @@
   "scripts": {
     "build": "tsup"
   },
+  "files": [
+    "dist",
+    "resources",
+    "copyright.md"
+  ],
   "keywords": [],
   "author": "",
   "license": "SEE LICENSE IN copyright.md",
